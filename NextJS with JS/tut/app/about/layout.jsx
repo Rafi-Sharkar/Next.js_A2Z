@@ -1,6 +1,11 @@
 import React, { Children } from 'react'
 import Link from 'next/link'
 
+export const metadata = {
+  title: "About Us",
+  description: "Keep Learning, Keep Applying  ",
+};
+
 const AboutLayout = ({children}) => {
   return (
     <div>
